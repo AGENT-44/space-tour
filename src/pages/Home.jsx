@@ -1,5 +1,5 @@
 import React from "react";
-import backgroudn from "../../assets/home/background-home-desktop.jpg";
+// import backgroudn from "../../assets/home/background-home-desktop.jpg";
 const Home = () => {
   return (
     <div className="h-screen relative bg-no-repeat  w-screen top-0 bg-cover  bg-right bg-[url('../../assets/home/background-home-desktop.jpg')]">
