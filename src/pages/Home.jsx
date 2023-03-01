@@ -18,7 +18,7 @@ const Home = () => {
             world experience!
           </p>
         </div>
-        <div className="bg-white xl:mt-40 mt-0 ml-28 rounded-full xl:ml-48 sm:w-30 sm:h-30 w-32 h-32 pt-12 pl-4 sm:pt-12 sm:pl-2 sm:ml-44 sm:hover:border-white/20 bg-clip-padding lg:hover:border-[40px] lg:hover:w-64 lg:hover:h-64 transition-all lg:hover:pl-8 lg:hover:pt-16 lg:hover:mt-24 lg:hover:mr-28 cursor-pointer md:w-40 md:h-40 md:mt-2 md:pl-6 md:pt-16 md:ml-36">
+        <div className="bg-white xl:mt-40 mt-0 ml-28 rounded-full xl:ml-48 sm:w-30 sm:h-30 w-32 h-32 pt-12 pl-4 sm:pt-12 sm:pl-2 sm:ml-44 sm:hover:border-white/20 bg-clip-padding xl:hover:border-[40px] xl:hover:w-64 xl:hover:h-64 transition-all xl:hover:pl-8  xl:hover:mt-24 xl:hover:mr-28 cursor-pointer md:w-40 md:h-40 md:mt-2 md:pl-6 md:pt-16 md:ml-36 lg:mt-40 lg:hover:border-[40px] lg:hover:w-64 lg:hover:h-64 lg:hover:pl-8 lg:hover:pt-20 lg:hover:mt-24 lg:hover:mr-28">
           <h2 className="sm:text-2xl text-xl font-bellefair tracking-wider">
             EXPLORE
           </h2>
