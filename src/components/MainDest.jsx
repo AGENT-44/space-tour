@@ -5,7 +5,7 @@ import data from "../../data.json";
 const MainDest = ({ planetActive, setPlanetActive }) => {
   return (
     <div>
-      <div className="w-[64rem]  h-auto  flex justify-between translate-x-64 translate-y-[22rem]">
+      <div className=" xl:w-[64rem] border h-auto  lg:flex lg:justify-between xl:mx-auto xl:translate-y-[22rem] lg:w-[58rem] lg:mx-auto  lg:translate-y-[20rem] ">
         <div id="img">
           <img
             src={
@@ -26,7 +26,7 @@ const MainDest = ({ planetActive, setPlanetActive }) => {
               if (planetActive == index) {
                 return (
                   <li
-                    className={"border-b-4 pb-2 text-white"}
+                    className={"border-b-4 pb-2 text-white cursor-pointer"}
                     onClick={() => setPlanetActive(index)}
                     key={index}
                   >
@@ -36,7 +36,9 @@ const MainDest = ({ planetActive, setPlanetActive }) => {
               } else {
                 return (
                   <li
-                    className={""}
+                    className={
+                      "hover:pb-2 hover:border-b-4 border-gray-600 cursor-pointer"
+                    }
                     onClick={() => setPlanetActive(index)}
                     key={index}
                   >

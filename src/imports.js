@@ -11,5 +11,4 @@ import moon from '../Public/destination/image-moon.png'
 import mars from '../Public/destination/image-mars.png'
 import titan from '../Public/destination/image-titan.png'
 import europa from '../Public/destination/image-europa.png'
-
 export { Navbar, Home, Destination, Router, Crew, Technology, moon, Logo, iconClose, iconOpen, mars, titan, europa }
