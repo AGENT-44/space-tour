@@ -87,10 +87,17 @@ const Navbar = () => {
         <img
           src={isOpen ? iconClose : iconOpen}
           alt="mobileMenu"
-          className="sm:hidden inline-block w-10 h-10 mt-5 mr-5"
+          className="sm:hidden z-20 inline-block w-7 h-7 mt-5 mr-5 "
           onClick={handleIsOpen}
         />
       </nav>
+      <div
+        className={
+          isOpen
+            ? "absolute sm:hidden h-full w-[60%] backdrop-blur-xl right-0 top-0 z-[2]"
+            : "hidden"
+        }
+      ></div>
     </div>
   );
 };
