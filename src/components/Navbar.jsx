@@ -159,7 +159,6 @@ const Navbar = () => {
           </Link>
         </ul>
       </div>
-      {console.log(isActive)}
     </div>
   );
 };
