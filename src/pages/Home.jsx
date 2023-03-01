@@ -2,7 +2,7 @@ import React from "react";
 // import backgroudn from "../../assets/home/background-home-desktop.jpg";
 const Home = () => {
   return (
-    <div className="bg-[url('../../assets/home/background-home-mobile.jpg')] h-screen relative bg-no-repeat  w-screen top-0 bg-cover  bg-right xl:bg-[url('../../assets/home/background-home-desktop.jpg')]  sm:bg-[url('../../assets/home/background-home-tablet.jpg')] xl:h-screen xl:w-screen sm:h-screen sm:w-screen">
+    <div className="bg-bg-home-mobile h-screen relative bg-no-repeat  w-screen top-0 bg-cover  bg-right xl:bg-bg-home-desktop  sm:bg-bg-home-tablet xl:h-screen xl:w-screen sm:h-screen sm:w-screen">
       <div className="absolute xl:bottom-[10rem] lg:flex lg:justify-between xl:left-[10rem] top-[15rem] left-0 sm:left-[5rem] md:left-52">
         <div className="xl:w-[32rem] lg:w-[30rem] md:w-[35rem] w-auto block">
           <h5 className=" font-barlow text-xl sm:text-3xl pl-5 text-center text-[#D0D6F9] tracking-[4.75px] sm:pl-16 xl:p-0">

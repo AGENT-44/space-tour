@@ -9,6 +9,11 @@ module.exports = {
       fontFamily: {
         bellefair: ["Bellefair", 'serif'],
         barlow: ["Barlow Condensed", 'sans-serif']
+      },
+      backgroundImage: {
+        'bg-home-desktop': "url('./assets/home/background-home-desktop.jpg')",
+        'bg-home-tablet': "url('./assets/home/background-home-tablet.jpg')",
+        'bg-home-mobile': "url('./assets/home/background-home-mobile.jpg')"
       }
     },
   },
