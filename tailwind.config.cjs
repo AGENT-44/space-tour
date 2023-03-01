@@ -11,9 +11,12 @@ module.exports = {
         barlow: ["Barlow Condensed", 'sans-serif']
       },
       backgroundImage: {
-        'bg-home-desktop': "url('/home/background-home-desktop.jpg')",
-        'bg-home-tablet': "url('/home/background-home-tablet.jpg')",
-        'bg-home-mobile': "url('/home/background-home-mobile.jpg')"
+        'bg-home-desktop': "url('../Public/home/background-home-desktop.jpg')",
+        'bg-home-tablet': "url('../Public/home/background-home-tablet.jpg')",
+        'bg-home-mobile': "url('../Public/home/background-home-mobile.jpg')",
+        'bg-destination-desktop': "url('../Public/destination/background-destination-desktop.jpg')",
+        'bg-technology-desktop': "url('../Public/technology/background-technology-desktop.jpg')",
+        'bg-crew-desktop': "url('../Public/crew/background-crew-desktop.jpg')",
       }
     },
   },

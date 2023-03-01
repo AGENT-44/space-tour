@@ -4,9 +4,9 @@ import Router from "./Router";
 import Crew from "./pages/Crew";
 import Technology from "./pages/Technology";
 import Destination from "./pages/Destination";
-import Logo from '../assets/shared/logo.svg'
-import iconClose from '../assets/shared/icon-close.svg';
-import iconOpen from '../assets/shared/icon-hamburger.svg';
+import Logo from '../Public/shared/logo.svg'
+import iconClose from '../Public/shared/icon-close.svg';
+import iconOpen from '../Public/shared/icon-hamburger.svg';
 
 
 
