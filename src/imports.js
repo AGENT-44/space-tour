@@ -11,4 +11,8 @@ import moon from '../Public/destination/image-moon.png'
 import mars from '../Public/destination/image-mars.png'
 import titan from '../Public/destination/image-titan.png'
 import europa from '../Public/destination/image-europa.png'
-export { Navbar, Home, Destination, Router, Crew, Technology, moon, Logo, iconClose, iconOpen, mars, titan, europa }
+import douglas from '../Public/crew/image-douglas-hurley.png'
+import mark from '../Public/crew/image-mark-shuttleworth.png'
+import victor from '../Public/crew/image-victor-glover.png'
+import anoushesh from '../Public/crew/image-anousheh-ansari.png'
+export { Navbar, Home, Destination, Router, Crew, Technology, moon, Logo, iconClose, iconOpen, mars, titan, europa, douglas, victor, mark, anoushesh }
