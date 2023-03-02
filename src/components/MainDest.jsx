@@ -5,8 +5,11 @@ import data from "../../data.json";
 const MainDest = ({ planetActive, setPlanetActive }) => {
   return (
     <div>
-      <div className=" xl:w-[64rem] border h-auto  lg:flex lg:justify-between xl:mx-auto xl:translate-y-[22rem] lg:w-[58rem] lg:mx-auto  lg:translate-y-[20rem] ">
-        <div id="img">
+      <div className="xl:w-[64rem] border  h-auto  lg:flex lg:justify-between xl:mx-auto xl:translate-y-[22rem] lg:w-[58rem] lg:mx-auto sm:translate-y-52 lg:translate-y-[20rem] ">
+        <div
+          id="img"
+          className="sm:absolute sm:top-0 lg:static sm:left-0 sm:-translate-y-10 sm:right-0 sm:mx-auto lg:-translate-y-0 sm:h-[17rem] sm:w-[17rem] lg:w-auto lg:h-auto"
+        >
           <img
             src={
               planetActive == 0
@@ -20,8 +23,8 @@ const MainDest = ({ planetActive, setPlanetActive }) => {
             alt="moon"
           />
         </div>
-        <div id="text" className="text-white ">
-          <ul className="uppercase flex text-[#D0D6F9] font-thin gap-10 text-lg tracking-widest mr-14 -translate-y-10 font-barlow">
+        <div id="text" className="text-white">
+          <ul className="uppercase flex text-[#D0D6F9] font-thin gap-10 lg:text-lg tracking-widest lg:mr-14 lg:-translate-y-10 font-barlow sm:mt-64 sm:justify-center lg:mt-0">
             {data.destinations.map((item, index) => {
               if (planetActive == index) {
                 return (
@@ -48,26 +51,23 @@ const MainDest = ({ planetActive, setPlanetActive }) => {
               }
             })}
           </ul>
-          <div className="h-auto w-[29rem] ">
-            <h1 className="text-[6.5rem] font-bellefair uppercase mt-0  ">
+          <div className="h-auto lg:w-[29rem] sm:w-[28rem] sm:mx-auto border">
+            <h1 className="text-[6.5rem] font-bellefair uppercase mt-0 sm:text-center">
               {data.destinations.at(planetActive).name}
             </h1>
-            <p className="text-left w-[27rem] tracking-[0.06em] leading-8 text-[#D0D6f9] text-base font-thin">
-              See our planet as you’ve never seen it before. A perfect relaxing
-              trip away to help regain perspective and come back refreshed.
-              While you’re there, take in some history by visiting the Luna 2
-              and Apollo 11 landing sites.
+            <p className="lg:text-left lg:w-[27rem] sm:mt-0 sm:text-center tracking-[0.06em] leading-8 text-[#D0D6f9] text-base font-thin">
+              {data.destinations.at(planetActive).description}
             </p>
-            <hr className="w-auto mt-10  border-1 border-gray-600" />
-            <div className="font-barlow tracking-[0.2em] text-base text-[#D0D6f9] flex justify-between">
+            <hr className="w-[30rem] mt-10  border-1 border-gray-600" />
+            <div className="font-barlow tracking-[0.2em] text-base text-[#D0D6f9] flex sm:justify-center lg:justify-between sm:gap-x-20 lg:gap-0">
               <h2 className="mt-2">AVG. DISTANCE</h2>
               <h2 className="mt-2 mr-14">EST. TRAVEL TIME</h2>
             </div>
-            <div className="flex justify-between text-3xl font-bellefair uppercase">
-              <p className="mt-2 ">
+            <div className="flex sm:justify-center sm:gap-x-10 border lg:justify-between text-3xl font-bellefair uppercase">
+              <p className="mt-2 border">
                 {data.destinations.at(planetActive).distance}
               </p>
-              <p className="w-[12.5rem] mt-2  ">
+              <p className="w-[12.5rem] border mt-2  ">
                 {data.destinations.at(planetActive).travel}
               </p>
             </div>
