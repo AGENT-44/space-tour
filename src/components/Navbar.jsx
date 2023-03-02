@@ -94,7 +94,7 @@ const Navbar = () => {
       <div
         className={
           isOpen
-            ? "absolute sm:hidden h-full w-[60%] backdrop-blur-2xl bg-white/5 right-0 top-0 z-[2]"
+            ? "absolute sm:hidden h-[125vh] w-[60%] backdrop-blur-2xl bg-white/5 right-0 top-0 z-[2]"
             : "hidden"
         }
       >
