@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="font-barlow">
-      <nav className="h-20 flex  justify-between w-full top-5 lg:top-10 bg-transparent fixed z-10 text-white">
+      <nav className="h-20 flex   justify-between w-full top-5 lg:top-10 bg-transparent fixed z-10 text-white">
         <img src={Logo} alt="Logo" className="w-14 h-14 mt-3 ml-10" />
         <hr className="w-[20%] absolute border-gray-700 left-48 z-10 top-10 lg:block lg:w-[27%]  xl:w-[33%] hidden" />
         <ul className="hidden sm:flex items-center  gap-14 uppercase sm:pl-5 sm:pr-10 xl:w-[55%] lg:w-[58%] xl:pl-24 pr-36 backdrop-blur-xl bg-white/5">
@@ -94,7 +94,7 @@ const Navbar = () => {
       <div
         className={
           isOpen
-            ? "absolute sm:hidden h-[125vh] w-[60%] backdrop-blur-2xl bg-white/5 right-0 top-0 z-[2]"
+            ? "absolute sm:hidden h-[100vh] tall:h-[125vh]  w-[60%] backdrop-blur-2xl bg-white/5 right-0 top-0 z-[2]"
             : "hidden"
         }
       >

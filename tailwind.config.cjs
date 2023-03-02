@@ -19,8 +19,13 @@ module.exports = {
         'bg-destination-mobile': "url('../Public/destination/background-destination-mobile.jpg')",
         'bg-technology-desktop': "url('../Public/technology/background-technology-desktop.jpg')",
         'bg-crew-desktop': "url('../Public/crew/background-crew-desktop.jpg')",
+      },
+      screens: {
+        'tall': { 'raw': '(max-height: 786px)' },
+        // => @media (min-height: 800px) { ... }
       }
     },
+
   },
   plugins: [],
 }
