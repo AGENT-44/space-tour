@@ -5,7 +5,7 @@ import data from "../../data.json";
 const MainDest = ({ planetActive, setPlanetActive }) => {
   return (
     <div>
-      <div className="xl:w-[64rem]   h-auto  lg:flex lg:justify-between xl:mx-auto xl:translate-y-[22rem] lg:w-[58rem] translate-y-40 lg:mx-auto sm:translate-y-52 border border-transparent lg:translate-y-[20rem] ">
+      <div className="xl:w-[64rem]   h-auto  lg:flex lg:justify-between xl:mx-auto xl:translate-y-[20rem] lg:w-[58rem] translate-y-40 lg:mx-auto sm:translate-y-52 border border-transparent lg:translate-y-[20rem] ">
         <div
           id="img"
           className="sm:absolute sm:top-10 lg:static sm:left-0 sm:-translate-y-10 sm:right-0 sm:mx-auto h-[10rem] w-[10rem] mx-auto lg:-translate-y-0 sm:h-[17rem] sm:w-[17rem] lg:w-auto lg:h-auto"
@@ -51,7 +51,7 @@ const MainDest = ({ planetActive, setPlanetActive }) => {
               }
             })}
           </ul>
-          <div className="h-auto lg:w-[29rem] sm:w-[28rem] w-auto  sm:mx-auto ">
+          <div className="h-auto lg:w-[29rem] sm:w-[28rem] w-auto  sm:mx-auto  ">
             <h1 className="sm:text-[6.5rem] text-6xl text-center mt-5 font-bellefair uppercase sm:text-center">
               {data.destinations.at(planetActive).name}
             </h1>
@@ -64,11 +64,11 @@ const MainDest = ({ planetActive, setPlanetActive }) => {
               <h2 className="mt-2 sm:ml-8">AVG. DISTANCE</h2>
               <h2 className="mt-2 sm:pr-0 pr-14">EST. TRAVEL TIME</h2>
             </div>
-            <div className="hidden sm:flex border sm:justify-center lg:gap-x-20 lg:justify-between text-3xl font-bellefair uppercase">
-              <p className="mt-2 lg:pl-0  w-56  border  lg:mr-0">
+            <div className="hidden sm:flex  sm:justify-center lg:gap-x-20 lg:justify-between text-3xl font-bellefair uppercase">
+              <p className="mt-2 lg:pl-0 ml-7 w-56  lg:mr-0">
                 {data.destinations.at(planetActive).distance}
               </p>
-              <p className="lg:w-[14rem]  pl-5 border  mt-2  ">
+              <p className="lg:w-[14rem]  pl-5  mt-2  ">
                 {data.destinations.at(planetActive).travel}
               </p>
             </div>
