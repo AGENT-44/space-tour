@@ -4,15 +4,21 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, isActive] = useState("");
-
   const [isOpen, setIsOpen] = useState(false);
   const handleChangeActive = (state) => {
     isActive(state);
   };
+
   const handleIsOpen = () => {
     setIsOpen(!isOpen);
   };
-
+  const location = window.location.pathname;
+  let classA =
+    "absolute sm:hidden h-[100vh] tall:h-[100vh]  w-[60%] backdrop-blur-2xl bg-white/5 right-0 top-0 z-[2]";
+  if (location == "/destination") {
+    classA =
+      "absolute sm:hidden h-[100vh] tall:h-[125vh]  w-[60%] backdrop-blur-2xl bg-white/5 right-0 top-0 z-[2]";
+  }
   return (
     <div className="font-barlow">
       <nav className="h-20 flex   justify-between w-full top-5 lg:top-10 bg-transparent fixed z-10 text-white">
@@ -91,13 +97,7 @@ const Navbar = () => {
           onClick={handleIsOpen}
         />
       </nav>
-      <div
-        className={
-          isOpen
-            ? "absolute sm:hidden h-[100vh] tall:h-[125vh]  w-[60%] backdrop-blur-2xl bg-white/5 right-0 top-0 z-[2]"
-            : "hidden"
-        }
-      >
+      <div className={isOpen ? classA : "hidden"}>
         <ul className=" h-96 mt-52 pl-10 flex flex-col gap-y-10">
           <Link to={"/"}>
             <li
