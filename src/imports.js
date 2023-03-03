@@ -15,4 +15,11 @@ import douglas from '../Public/crew/image-douglas-hurley.png'
 import mark from '../Public/crew/image-mark-shuttleworth.png'
 import victor from '../Public/crew/image-victor-glover.png'
 import anoushesh from '../Public/crew/image-anousheh-ansari.png'
-export { Navbar, Home, Destination, Router, Crew, Technology, moon, Logo, iconClose, iconOpen, mars, titan, europa, douglas, victor, mark, anoushesh }
+import spaceShipLandscape from '../Public/technology/image-launch-vehicle-landscape.jpg'
+import spaceShipPortrait from '../Public/technology/image-launch-vehicle-portrait.jpg'
+import capsulePortrait from '../Public/technology/image-space-capsule-portrait.jpg'
+import capsuleLandscape from '../Public/technology/image-space-capsule-landscape.jpg'
+import spaceportPortrait from '../Public/technology/image-spaceport-portrait.jpg'
+import spacePortLandscape from '../Public/technology/image-spaceport-landscape.jpg'
+
+export { Navbar, Home, Destination, Router, Crew, Technology, moon, Logo, iconClose, iconOpen, mars, titan, europa, douglas, victor, mark, anoushesh, spacePortLandscape, spaceShipPortrait, spaceportPortrait, spaceShipLandscape, capsuleLandscape, capsulePortrait }

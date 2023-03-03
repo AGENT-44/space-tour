@@ -6,7 +6,7 @@ const Crew = () => {
   const [crewActive, changeActive] = useState(0);
 
   return (
-    <div className="h-screen relative bg-no-repeat  w-screen top-0 bg-cover  bg-right bg-bg-crew-desktop">
+    <div className="h-screen relative bg-no-repeat  w-screen top-0 bg-cover  bg-right lg:bg-bg-crew-desktop sm:bg-bg-crew-tablet bg-bg-crew-mobile">
       <div className=" lg:h-30 lg:w-[26rem] sm:absolute sm:translate-x-0 sm:translate-y-0 sm:top-32 sm:left-12 lg:static lg:translate-x-24 xl:translate-x-48 lg:translate-y-56 absolute top-28 left-1/4">
         <p className="text-gray-500 lg:text-3xl sm:text-xl font-barlow tracking-[0.2em] sm:tracking-[0.3rem] font-extrabold ">
           02
