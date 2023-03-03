@@ -26,7 +26,7 @@ module.exports = {
         'bg-tech-mobile': "url('../Public/technology/background-technology-mobile.jpg')",
       },
       screens: {
-        'tall': { 'raw': '(max-height: 786px)' },
+        'tall': { 'raw': '(max-height: 794px)' },
         // => @media (min-height: 800px) { ... }
       }
     },

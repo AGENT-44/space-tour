@@ -69,7 +69,7 @@ const Technology = () => {
           </h1>
         </div>
         {/* Description */}
-        <div className="text-[#D0D6F9] w-[95%] mx-auto text-center tall:mt-0 mt-0 tall:leading-6 text-lg tall:text-sm leading-8 p-5 tall:p-2 sm:pt-2 sm:text-xl  sm:w-[70%] ">
+        <div className="text-[#D0D6F9] w-[95%] mx-auto text-center tall:mt-0 mt-0 tall:leading-6 text-lg tall:text-sm leading-8 p-5 tall:p-2 sm:pt-2 sm:text-xl  sm:w-[70%] tall2:text-sm ">
           <p>{data.technology.at(activeNav).description}</p>
         </div>
       </main>
