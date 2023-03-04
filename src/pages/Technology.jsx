@@ -12,11 +12,11 @@ const Technology = () => {
   const [activeNav, setActiveNav] = useState(0);
   const navItems = [1, 2, 3];
   const ImageNavClass =
-    "h-12 w-12 py-[0.6rem] sm:h-14 sm:w-14 sm:py-[0.7rem] sm:px-5 lg:w-20 lg:h-20  transition-all px-4 border-gray-600 rounded-full text-white border lg:py-[1.3rem]";
+    "h-12 w-12 py-[0.6rem] sm:h-14 sm:w-14 sm:py-[0.7rem] sm:px-5 lg:w-20 lg:h-20  transition-all px-4 border-gray-600 rounded-full text-white border lg:py-[1.3rem] cursor-pointer hover:border-gray-300";
   const ImageNavClassActive =
-    "h-12 w-12 py-[0.6rem] sm:h-14 sm:w-14 sm:py-[0.7rem] sm:px-5 lg:w-20 lg:h-20  transition-all bg-white px-4 border-gray-600 rounded-full text-black border lg:py-[1.3rem]";
+    "h-12 w-12 py-[0.6rem] sm:h-14 sm:w-14 sm:py-[0.7rem] sm:px-5 lg:w-20 lg:h-20  transition-all bg-white px-4 border-gray-600 rounded-full text-black border lg:py-[1.3rem] cursor-pointer";
   return (
-    <div className="h-screen  bg-no-repeat relative top-0 bg-cover  bg-right lg:bg-bg-technology-desktop sm:bg-bg-tech-tablet bg-bg-tech-mobile">
+    <div className="h-screen  bg-no-repeat relative top-0 bg-cover  bg-right lg:bg-bg-technology-desktop sm:bg-bg-tech-tablet bg-bg-tech-mobile ">
       <div className=" lg:h-30 lg:w-[26rem] sm:absolute sm:translate-x-0 sm:translate-y-0 sm:top-32 sm:left-12 lg:static lg:translate-x-16 xl:translate-x-40 lg:translate-y-56 absolute top-28 left-[33%]">
         <p className="text-gray-500 text-lg lg:text-3xl sm:text-2xl font-barlow tracking-[0.2em] sm:tracking-[0.3rem] font-extrabold  ">
           03
