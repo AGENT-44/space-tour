@@ -74,7 +74,7 @@ const Technology = () => {
         </div>
         {/* Tech Name */}
         <div className="text-white  mt-2 lg:absolute lg:top-96 xl:left-[19rem] lg:left-40 ">
-          <h1 className="text-center font-bellefair uppercase text-3xl sm:text-4xl lg:mt-5 xl:text-6xl lg:text-5xl">
+          <h1 className="text-center font-bellefair uppercase text-3xl sm:text-4xl lg:mt-5 xl:text-5xl lg:text-5xl">
             {data.technology.at(activeNav).name}
           </h1>
         </div>
